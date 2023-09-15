@@ -25,14 +25,14 @@ title: CosmosDBManagementClient
 ### 
 ``` yaml 
 input-file:
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/cosmos-db.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/dataTransferService.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/managedCassandra.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/mongorbac.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/notebook.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/rbac.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/restorable.json
-  - https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-03-15-preview/services.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/cosmos-db.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/dataTransferService.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/managedCassandra.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/mongorbac.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/notebook.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/rbac.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/restorable.json
+  - https://github.com/Azure/azure-rest-api-specs/blob/83911f288e948d52ee2e2e86ec4ed870e1f83949/specification/cosmos-db/resource-manager/Microsoft.DocumentDB/preview/2023-09-15-preview/services.json
 
 output-folder: Generated
 
