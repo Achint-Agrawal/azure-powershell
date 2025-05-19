@@ -1138,8 +1138,8 @@ Test SQL throughput cmdlets using all parameter sets
 #>
 function Test-SqlThroughputCmdlets
 {
-  $AccountName = "dbaccount62-1"
-  $rgName = "CosmosDBResourceGroup62"
+  $AccountName = "throughput-bucketing-rp-test"
+  $rgName = "throughput-bucketing-rg"
   $DatabaseName = "dbName3"
   $ContainerName = "containerName"
 
@@ -1172,8 +1172,8 @@ function Test-SqlThroughputCmdlets
   $ThroughputBucket2 = New-AzCosmosDBThroughputBucketObject -Id 2 -MaxThroughputPercentage 30
 
   Try{
-      $resourceGroup = New-AzResourceGroup -ResourceGroupName $rgName  -Location   $location
-      $cosmosDBAccount = New-AzCosmosDBAccount -ResourceGroupName $rgName -LocationObject $locations -Name $AccountName -ApiKind $apiKind -DefaultConsistencyLevel $consistencyLevel
+      # $resourceGroup = New-AzResourceGroup -ResourceGroupName $rgName  -Location   $location
+      # $cosmosDBAccount = New-AzCosmosDBAccount -ResourceGroupName $rgName -LocationObject $locations -Name $AccountName -ApiKind $apiKind -DefaultConsistencyLevel $consistencyLevel
 
       $NewDatabase =  New-AzCosmosDBSqlDatabase -AccountName $AccountName -ResourceGroupName $rgName -Name $DatabaseName -Throughput  $ThroughputValue
       $Throughput = Get-AzCosmosDBSqlDatabaseThroughput -AccountName $AccountName -ResourceGroupName $rgName -Name $DatabaseName
